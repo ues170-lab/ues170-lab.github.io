@@ -10,3 +10,7 @@
 .text-link,footer div a{display:inline-flex;align-items:center;min-height:44px}
 .ticker{width:100%;margin-left:0}
 @media(max-width:850px){.site-header{gap:.75rem}.site-header .button-small{display:inline-flex;min-height:44px;padding:.65rem .75rem;box-shadow:3px 3px 0 var(--lime)}.shop-label-desktop{display:none}.shop-label-mobile{display:inline}}
+
+/* September 2026 catalog and signup fixes */
+.hero-price{font:700 1rem/1.5 Arial,sans-serif;color:var(--lime)}.catalog-note{font:400 .85rem/1.6 Arial,sans-serif;color:var(--muted);max-width:650px}.product-card+.product-card{margin-top:3rem}.product-card-text{grid-template-columns:1fr}.signup-label{flex-basis:100%;font:700 .9rem/1.4 Arial,sans-serif}.cta form{width:100%}.cta input{max-width:100%;min-width:0!important;width:100%}.cta .button-ghost{color:var(--ink);border-color:var(--ink)}.product-card .button,.hero .button,.site-header .button,.cta .button:not(.button-ghost){color:var(--ink)}.hero-art img{aspect-ratio:1}.product-image img{object-fit:contain}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--lime);outline-offset:4px}.cta a:focus-visible,.cta button:focus-visible,.cta input:focus-visible{outline-color:var(--ink)}
+@media(max-width:850px){.hero-art{order:0}.hero{padding-top:2.5rem}.hero h1{font-size:clamp(3.5rem,17vw,7rem)}.lede{margin:1.4rem 0}}
